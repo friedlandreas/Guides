@@ -50,7 +50,7 @@ der REG_SZ-Wert **ConnectionString** leer ist.
 
 ![Citrix - DB ConnectionString](https://github.com/friedlandreas/Guides/blob/86746f185b6d6209372ffecc795e18be9fddb3cf/images/XenDesktop-Datenbank-Migration-Registry.png)
 
-Dazu öffnet man auf allen Delivery Controllern eine Powershell als Administrator und setzt die neuen Datenbankverbindungen. 
+Dann öffnet man auf allen Delivery Controllern eine Powershell als Administrator und setzt die neuen Datenbankverbindungen. 
 Einfach **DatenbankServer\Instanzname** und **DatenbankName** die entsprechenden Werte eintragen. 
 Wenn die Datenbank auf der Standardinstanz des SQL-Servers läuft kann auf \Instanzname verzichtet werden und nur der Servername eingetragen werden:
 
