@@ -10,7 +10,7 @@ Das komische hierbei ist, dass dieses Problem oft nicht alle Benutzer betrifft s
 
 Das Problem liegt hier an der Anmeldung von Outlook am Globalen Katalog im Active Directorys.
 
-Man kann über einen Registry-Schlüssel den Globalen-Katalog-Server für Outlook bei diesen Benutzern vorgeben.
+Man kann über einen **Registry-Schlüssel** den Globalen-Katalog-Server für Outlook bei diesen Benutzern vorgeben.
 
 Dazu erstellt man für die betroffenen Benutzer unter
 
