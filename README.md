@@ -1,3 +1,3 @@
 # Guides
 
-Anleitungen, etc... :-)
+Anleitungen, etc... :smiley:
