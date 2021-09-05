@@ -1,4 +1,4 @@
-Bei der Installation von so mancher Software (in meinem Fall z. B. SQL Server 2008) wird vom Setup überprüft, ob vor der Installation ein Neustart erfoderlich ist.
+Bei der Installation von so mancher Software (in meinem Fall z. B. SQL Server) wird vom Setup überprüft, ob vor der Installation ein Neustart erfoderlich ist.
 Hatt auch seinen Sinn, da vielleicht voher Systemdateien geändert worden, etc..
 Nur manchmal kannst du das Windows x-fach neustarten, er verlangt immer einen Neustart vor der Installation.
 
