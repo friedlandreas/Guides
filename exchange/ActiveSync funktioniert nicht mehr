@@ -1,0 +1,18 @@
+Nach z.B einer Exchange-Migration funktionierte Exchange ActiveSync nicht mehr 
+Die Anmeldedatenüberpüfung am iPhone hat geklappt - das abholen der Emails hat mir das iPhone mit einem Fehler quitiert. Bei einem Android-Gerät war es das gleiche
+
+#Ursache dieses Problems:
+
+Der Benutzer hatte nach der Exchange-Migration nicht die nötigen Rechte im ActiveDirectory.
+
+#Lösung:
+
+
+Die Rechte des ActiveDirectory-Benutzers muss man neu setzen.
+
+Dazu öffnet man auf das Snap-In Active Directory-Benutzer und –Computer und aktiviert unter Ansicht die Erweiterten Funktionen.  
+Danach wählt man den Benutzer aus, dessen DirectPush nicht funktioniert, und bearbeite die Sicherheitseinstellungen. Man muss in den Sicherheitseinstellungen des Benutzers das Häkchen bei &#8222;Vererbbare Berechtigungen des übergeordneten Objekts einschließen&#8220; setzen.
+
+
+
+Danach noch einen Moment warten -> dann sollte der Empfang auf dem Handy wieder funktionieren!
