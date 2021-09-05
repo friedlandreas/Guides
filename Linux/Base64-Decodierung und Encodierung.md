@@ -11,7 +11,7 @@ echo `echo VGVzdC1TdHJpbmc= | base64 --decode`
 ```console
 echo -n 'Test-String' | base64
 ```
-![Base64](https://github.com/friedlandreas/Guides/blob/e8b813d98854821bd7a897afd5c67891d7572669/images/LinuxBase64.png)
+![Linux Base64](https://github.com/friedlandreas/Guides/blob/e8b813d98854821bd7a897afd5c67891d7572669/images/LinuxBase64.png)
 
 Super simpel 🙂
 
