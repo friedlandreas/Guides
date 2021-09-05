@@ -1,1 +1,1 @@
-Bilder für die Anleitungen 😃
+Bilder für die Anleitungen
