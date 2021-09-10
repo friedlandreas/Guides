@@ -1,3 +1,3 @@
 # Guides
 
-Anleitungen, Tipps und sonstiges..... :smiley:
+Anleitungen, Tipps und meine Notepads..... 📖 🔖 📑
