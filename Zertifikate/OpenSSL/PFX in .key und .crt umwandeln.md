@@ -1,4 +1,4 @@
-ch muss öfters mal Zerifikate im PFX-Format umwandeln in .key und .crt-Datein für z.B. den WebServer NGINX umwandeln. Das geht mit OpenSSL ganz einfach:
+Ich muss öfters mal Zerifikate im PFX-Format umwandeln in .key und .crt-Datein für z.B. den WebServer NGINX umwandeln. Das geht mit OpenSSL ganz einfach:
 
 Das eigentliche Zertifikat:
 
