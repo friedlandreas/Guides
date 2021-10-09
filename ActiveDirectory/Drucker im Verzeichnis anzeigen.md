@@ -3,4 +3,3 @@ Will man sich die Drucker im ActiveDirectory anzeigen lassen die über **Im Verz
 ```console
 Get-AdObject -filter "objectCategory -eq 'printqueue'" -Prop * | Select Name,serverName, @{N='ShareNames';E={$_.printShareName -join ';'}}
 ```
-:-)
