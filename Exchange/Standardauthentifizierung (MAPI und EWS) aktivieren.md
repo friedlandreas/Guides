@@ -18,6 +18,6 @@ iisreset
 write-host "Fertig!"
 ```
 
-Fertig :smiley:
+Danach lässt sich Outlook per Username/Passwort starten 😃
 
-**Achtung:** Manche CU-Updates setzen das auch gerne mal zurück - einfach nach dem CU-Upgrade ausführen :blush:
+**Achtung:** Manche CU-Updates setzen das auch gerne mal zurück - einfach nach dem CU-Upgrade ausführen
