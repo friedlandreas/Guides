@@ -1,6 +1,6 @@
 Wenn man bei einem Windows-DNS mal alle DNS-Zonen inkl. Einträge anzeigen lassen will geht das wunderbar mit Powershell :-)
 
-Lokaler DNS-Server:
+An einem lokalen DNS-Server:
 
 ```console
 $Zones = @(Get-DnsServerZone)
@@ -10,7 +10,7 @@ ForEach ($Zone in $Zones) {
 }
 ```
 
-Remote DNS-Server:
+Einen Remote DNS-Server:
 
 ```console
 $DNSServer = "servername-oder-IP"
@@ -21,7 +21,7 @@ ForEach ($Zone in $Zones) {
 }
 ```
 
-Remote DNS-Server (Ausgabe in Textdatien pro Zone):
+Einen Remote DNS-Server mit Ausgabe in Textdatien pro Zone:
 
 ```console
 $DNSServer = "servername-oder-IP"
