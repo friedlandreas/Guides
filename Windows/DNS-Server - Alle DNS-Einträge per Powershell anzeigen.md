@@ -33,4 +33,4 @@ ForEach ($Zone in $Zones) {
 }
 ```
 
-Quelle: [sigkillit.com] (http://sigkillit.com/2015/10/27/list-all-dns-records-with-powershell/)
+Quelle: http://sigkillit.com/2015/10/27/list-all-dns-records-with-powershell/
