@@ -33,4 +33,6 @@ ForEach ($Zone in $Zones) {
 }
 ```
 
+Super zum Backupen und so :-)
+
 Quelle: http://sigkillit.com/2015/10/27/list-all-dns-records-with-powershell/
