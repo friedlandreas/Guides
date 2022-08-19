@@ -1,4 +1,4 @@
-Wenn auf den Domänencontrollern eines ActiveDirectorys die DFS-Replikation (DFS-R) des SYSVOL Probleme macht (z.B. im DFS-R-Log den Fehler **4012**, **2212** oder **2213** ), kann man das Problem mit einem authoritative DFS Replikation (ähnlich wie früher bei NTFRS)  relativ leicht beheben.
+Wenn auf den Domänencontrollern eines ActiveDirectorys die DFS-Replikation (DFS-R) des SYSVOL Probleme macht (z.B. im DFS-R-Log den Fehler **4012**, **2212** oder **2213** ), kann man das Problem mit einer authoritativen DFS Replikation (ähnlich wie früher bei NTFRS) relativ leicht beheben.
 
 ## Vorbereitung
 
