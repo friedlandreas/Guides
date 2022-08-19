@@ -9,7 +9,7 @@ Install-WindowsFeature RSAT-DFS-Mgmt-Con
 ```
 ausführen.
 
-## DFRS-Replikation ausschalten am primärern Domaincontroller
+## DFRS-Replikation ausschalten - Primärer Domaincontroller
 
 Zum Start öffnen wir eine **adsiedit.msc** mit **administrativen Rechten** auf unseren primären DC und erstellen eine Verbindung wmit dem **Standardmäßiger Namenskontext**
 
@@ -35,7 +35,7 @@ und setzten die Werte
 
 ![ADSIEDIT-SYSVOL-Subscription-msDFSR-Settings-primary-DC](https://github.com/friedlandreas/Guides/blob/d3c909ed1feb5998d235fca921377a858d65ea83/images/ADSIEDIT-SYSVOL-Subscription-03.png)
 
-## DFRS-Replikation ausschalten bei allen anderen Domaincontroller
+## DFRS-Replikation ausschalten - Alle anderen Domaincontroller
 
 Jetzt navigieren wir in unserem ADSIEDIT zu **allen anderen DCs**
 
@@ -69,7 +69,7 @@ Jetzt sollten im Event-Log der Event 4602 und 4114 auftauchen
 
 ![DFRS-Eventlog](https://github.com/friedlandreas/Guides/blob/8f613523194d0c86d50a76d953abf6bf12955059/images/Eventlog-DFSR-4114.png)
 
-## DFRS-Replikation einschalten am primären DC
+## DFRS-Replikation einschalten - Primärer Domaincontroller
 
 Da jetzt alle SYSVOLs nicht mehr an der Replikation teilnehmen können wir jetzt diese authoritativ wieder einschalten.
 
@@ -90,7 +90,7 @@ Jetzt sollte im Eventlog der Event 4602 auftauchen
 
 ![DFRS-Eventlog](https://github.com/friedlandreas/Guides/blob/d49d9001be389e60c7fb4311c0ef9e0e526bb262/images/Eventlog-DFSR-4602.png)
 
-## DFRS-Replikation einschalten bei allen anderen DCs
+## DFRS-Replikation einschalten - Allen anderen DCs
 
 Jetzt setzten wir im **ADSIEDIT** für **alle anderen DCs** den Wert
 
