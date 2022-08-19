@@ -28,15 +28,13 @@ Jetzt navigieren wir zu
 und öffnen 
 > **CN=SYSVOL Subscription** 
 
-![ADSIEDIT-SYSVOL-Subscription-Settings](https://github.com/friedlandreas/Guides/blob/c63162fb5d23f4aca15ca20a6e3c73d92507d732/images/ADSIEDIT-SYSVOL-Subscription-02.png)
-
 und setzten die Werte
 
 > **msDFSR-Enabled** auf **False**
 
 > **msDFSR-Options** auf **1**
 
-![ADSIEDIT-SYSVOL-Subscription-msDFSR-Settings-primary-DC](https://github.com/friedlandreas/Guides/blob/d3c909ed1feb5998d235fca921377a858d65ea83/images/ADSIEDIT-SYSVOL-Subscription-03.png)
+![ADSIEDIT-SYSVOL-Subscription-msDFSR-Settings-DC](https://github.com/friedlandreas/Guides/blob/9aab1fe718185788b5125230342686849fe87d2a/images/ADSIEDIT-SYSVOL-Subscription-02-SingleDC.png)
 
 
 ## DFSR-Dienst
@@ -48,13 +46,14 @@ repadmin.exe /syncall
 DFSRDIAG POLLAD
 ```
 
-![repadmin-syncall](https://github.com/friedlandreas/Guides/blob/6290887e804acc22e392eff15011ea8d24c4af6f/images/repadmin-syncall.png)
-
 und statet den DFSR-Dienst durch
 
 ```console
 net stop DFSR && net start DFSR
 ```
+
+![](https://github.com/friedlandreas/Guides/blob/75134871635f35d5bd3a8d3edd5a0317e38a20d0/images/ADSIEDIT-SYSVOL-Subscription-03-SingleDC.png)
+
 
 ## DFRS-Replikation einschalten
 
@@ -64,7 +63,7 @@ Im **ADSIEDIT** setzten wir jetzt den Wert
 
 > **msDFSR-Enabled** auf **True**
 
-![ADSIEDIT-SYSVOL-Subscription-msDFSR-Settings-primary-DC-enable](https://github.com/friedlandreas/Guides/blob/49d6cae56a06a7c107a4707e4a24575168080ab5/images/ADSIEDIT-SYSVOL-Subscription-05.png)
+![ADSIEDIT-SYSVOL-Subscription-msDFSR-Settings-DC-enable](https://github.com/friedlandreas/Guides/blob/d95b00fa850addf5e0c4753a01877162ab16a350/images/ADSIEDIT-SYSVOL-Subscription-04-SingleDC.png)
 
 und starten dann in einer **CMD** mit **administrativen Rechten** die Replikation
 
