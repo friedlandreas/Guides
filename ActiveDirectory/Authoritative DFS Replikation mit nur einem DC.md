@@ -23,7 +23,7 @@ Jetzt navigieren wir zu
 > DC=Domain/DC=TLD/OU=Domain Controllers/CN=ErsterDomänencontrollername/CN=DFSR-LocalSettings/CN=Domain System Volume/CN=SYSVOL Subscription
 
 
-![ADSIEDIT-SYSVOL-Subscription](https://github.com/friedlandreas/Guides/blob/f20a584906f63daf2aa996e059191628ea72e58a/images/ADSIEDIT-SYSVOL-Subscription-01.png)
+![ADSIEDIT-SYSVOL-Subscription](https://github.com/friedlandreas/Guides/blob/d1a4b2be3c8a235108e0b80e0799ad9c0c6a332b/images/ADSIEDIT-SYSVOL-Subscription-01-SingleDC.png)
 
 und öffnen 
 > **CN=SYSVOL Subscription** 
