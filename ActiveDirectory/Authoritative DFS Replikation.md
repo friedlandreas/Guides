@@ -35,7 +35,7 @@ und setzten die Werte
 
 ![ADSIEDIT-SYSVOL-Subscription-msDFSR-Settings-primary-DC](https://github.com/friedlandreas/Guides/blob/d3c909ed1feb5998d235fca921377a858d65ea83/images/ADSIEDIT-SYSVOL-Subscription-03.png)
 
-## DFRS-Replikation ausschalten - Alle anderen Domaincontroller
+## DFRS-Replikation ausschalten - alle anderen Domaincontroller
 
 Jetzt navigieren wir in unserem ADSIEDIT zu **allen anderen DCs**
 
@@ -90,7 +90,7 @@ Jetzt sollte im Eventlog der Event 4602 auftauchen
 
 ![DFRS-Eventlog](https://github.com/friedlandreas/Guides/blob/d49d9001be389e60c7fb4311c0ef9e0e526bb262/images/Eventlog-DFSR-4602.png)
 
-## DFRS-Replikation einschalten - Allen anderen DCs
+## DFRS-Replikation einschalten - alle anderen Domaincontroller
 
 Jetzt setzten wir im **ADSIEDIT** für **alle anderen DCs** den Wert
 
