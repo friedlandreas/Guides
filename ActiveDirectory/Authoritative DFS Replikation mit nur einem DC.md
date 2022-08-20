@@ -1,6 +1,4 @@
-Wenn auf einem Domänencontroller eines ActiveDirectorys die DFS-Replikation (DFS-R) des SYSVOL Probleme macht (z.B. im DFS-R-Log den Fehler **4012**, **2212** oder **2213** ), kann man das Problem mit einer authoritativen DFS Replikation (ähnlich wie früher bei NTFRS) relativ leicht beheben.
-
-Hat man nur einen Domänencontroller können diese Fehler totztdem auftreten - oft liegen diese Problem an einer nciht ordentlich abgeschlossen Domaincontroller-Migration. Auch hier hilft das Reset der Replikation - und sie ist nicht ganz so aufwendig wie mit meheren DCs 😄
+Hat man nur einen Domänencontroller kann die DFS-Replikation (DFS-R) des SYSVOL auch Probleme machen (z.B. im DFS-R-Log den Fehler **4012**, **2212** oder **2213** ) - oft liegen diese Problem an einer nicht ordentlich abgeschlossen Domaincontroller-Migration. Auch hier kann man das Problem mit einer authoritativen DFS Replikation (ähnlich wie früher bei NTFRS) relativ leicht beheben.
 
 
 ## Vorbereitung
