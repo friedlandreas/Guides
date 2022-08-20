@@ -65,7 +65,7 @@ net stop DFSR && net start DFSR
 
 und **wiederholen das auf allen anderen DCs**.
 
-Jetzt sollten im Event-Log der Event 4602 und 4114 auftauchen
+Jetzt sollte am primären DC im Event-Log der Event 4114 auftauchen
 
 ![DFRS-Eventlog](https://github.com/friedlandreas/Guides/blob/8f613523194d0c86d50a76d953abf6bf12955059/images/Eventlog-DFSR-4114.png)
 
