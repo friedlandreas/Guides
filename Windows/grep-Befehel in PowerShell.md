@@ -1,4 +1,4 @@
-Will man in Dateien einen String suchen (was z.B. unter Linux mit grep geht) kann man das in der PowerShell mittels
+Will man unter Widnows ählich wie mit **grep** unter Linux in Dateien einen String suchen kann man das in der PowerShell mittels
 
 ```console
 Select-String -Pattern "Suchstring" -path *.*
