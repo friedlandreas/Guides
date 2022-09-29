@@ -10,7 +10,7 @@ Einige Beispiele:
 
 **– Exchange: das Verschieben der Mailbox der Benutzer (z.B. bei Exchange-Migrationen) schlägt fehl**
 
-Bei einem Benutzer kann man die Vererbung wie **hier** beschrieben ja manuell aktivieren – bei vielen Usern ist da ein automatisierter Weg zu empfehlen….
+Bei einem Benutzer kann man die Vererbung wie **[hier](https://github.com/friedlandreas/Guides/blob/728cecc806c5dc3c31cf651b299d99ea701329bb/ActiveDirectory/Rechte-Vererbung%20einschalten.md)** beschrieben ja manuell aktivieren – bei vielen Usern ist da ein automatisierter Weg zu empfehlen….
 
 Das kann man ganz einfach mit der Powershell erledigen! Einfach die PowerShell ISE als Administrator ausführen und folgendes Script ausführen:
 
