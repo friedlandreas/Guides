@@ -1,6 +1,6 @@
-Die Rechte-Vererbung im ActiveDirectory ist manchmal bei bestimmten Benutzern deaktiviert – selten ist das gewollt – fast immer gibt es aber deswegen (vor allem in Verbindung mit Exchange) Probleme.
+Die Rechte-Vererbung im ActiveDirectory ist manchmal bei bestimmten Benutzern deaktiviert – selten ist das gewollt – fast immer gibt es aber deswegen (vor allem in Verbindung mit Exchange) Probleme...
 
-Einige Beispiele:
+## Probleme:
 
 **- ExchangeSynchronisationsfehler 86000C0A bei betroffenen Benutzern, obwohl OWA korrekt funktioniert**
 
@@ -9,6 +9,8 @@ Einige Beispiele:
 **– Fehler im Ereignisprotokoll von MSExchange ActiveSync mit dem Inhalt „Active directory Antwort: 00000005: SecErr: DSID-031521D0, problem 4003 (INSUFF_ACCESS_RIGHTS), data 0″.“**
 
 **– Exchange: das Verschieben der Mailbox der Benutzer (z.B. bei Exchange-Migrationen) schlägt fehl**
+
+## Lösung
 
 Bei einem Benutzer kann man die Vererbung wie **[hier](https://github.com/friedlandreas/Guides/blob/728cecc806c5dc3c31cf651b299d99ea701329bb/ActiveDirectory/Rechte-Vererbung%20einschalten.md)** beschrieben ja manuell aktivieren – bei vielen Usern ist da ein automatisierter Weg zu empfehlen….
 
