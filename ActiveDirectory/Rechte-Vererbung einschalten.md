@@ -1,4 +1,4 @@
-Die Rechte-Vererbung im ActiveDirectory ist manchmal bei bestimmten Benutzern deaktiviert – selten ist das gewollt – fast immer gibt es aber deswegen (vor allem in Verbindung mit Exchange) Probleme.
+Die Rechte-Vererbung im ActiveDirectory ist manchmal bei bestimmten Benutzern deaktiviert – selten ist das gewollt – fast immer gibt es aber deswegen (vor allem in Verbindung mit Exchange) Probleme...
 
 ## Probleme
 
