@@ -1,4 +1,4 @@
-# Routen
+## Routen
 
 **Route erstellen**
 
@@ -11,7 +11,7 @@ set static-route 10.20.30.0/28 nexthop gateway address 192.168.50.1 on
 ```console
 set static-route 10.20.30.0/28 off
 ```
-# Default Gateway
+## Default Gateway
 
 **Default-Gateway erstellen**
 
