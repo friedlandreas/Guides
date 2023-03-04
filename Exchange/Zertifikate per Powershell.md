@@ -85,7 +85,7 @@ Den Thumbprint (5113ae0233a72fccb75b1d0198628675333d010e) natürlich anpassen (L
 
 So sieht das dann aus:
 
-![Exchange - Zertifikate löschen](https://github.com/friedlandreas/Guides/blob/935cfb12adc36ce5279e66177fe0233eee1af6a5/images/exchange-certs-powershell-07.png)
+![Exchange - Zertifikate löschen](https://github.com/friedlandreas/Guides/blob/935cfb12adc36ce5279e66177fe0233eee1af6a5/images/exchange-certs-powershell-08.png)
 
 ## Dienste zuweisen
 Um ein Zertifikat die Dienste zuzuweisen bzw. den Diensten ein Zertifikat zuzuweisen geht recht einfach mit folgenden Befehl:
@@ -94,7 +94,6 @@ Enable-ExchangeCertificate -Thumbprint 434AC224C8459924B26521298CE8834C514856AB 
 ```
 Davor wie vorher berschrieben den Thumbprint des gewünschten Zertifikat holen! 
 
-![Exchange - Zertifikate Dienste zuweisen 01](https://github.com/friedlandreas/Guides/blob/935cfb12adc36ce5279e66177fe0233eee1af6a5/images/exchange-certs-powershell-08.png)
 ![Exchange - Zertifikate Dienste zuweisen 02](https://github.com/friedlandreas/Guides/blob/935cfb12adc36ce5279e66177fe0233eee1af6a5/images/exchange-certs-powershell-09.png)
 
 Prüfen:
@@ -158,7 +157,7 @@ Thumbprint natürlich anpassen! 😄
 Zuerst müssen wir alle URLs und Domänen die wir brauchen zusammensammeln:
 
 **Für JEDE auf dem Exchange konfigurierte Domäne eine autodiscover.domäne.de**
-**Für JEDE auf dem Exchange konfigurierte Domäne eine domän.de und am besten ein *.domäne.de**
+**Für JEDE auf dem Exchange konfigurierte Domäne eine domän.de und am besten ein**  ***.domäne.de**
 
 Beispiel:
 
