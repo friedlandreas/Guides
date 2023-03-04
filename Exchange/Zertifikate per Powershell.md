@@ -16,7 +16,7 @@ Nachfolgende eine Übersicht wie man über die Powershell (Exchange-Verwaltungss
 
 ## Anzeigen
 
-In der Exchange Management Shell kann ich mir alle Inforamationen der Zertifikate anzeigen lassen - auch filtern (z.B. nach Verwendung oder Ablaufdatum, etc) ist möglich 
+In der Exchange Management Shell kann ich mir alle Informationen der Zertifikate anzeigen lassen - auch filtern (z.B. nach Verwendung oder Ablaufdatum, etc) ist möglich 
 
 ### Alle Zertifikate
 
