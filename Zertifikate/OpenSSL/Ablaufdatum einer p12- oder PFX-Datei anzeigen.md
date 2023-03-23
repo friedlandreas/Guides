@@ -1,4 +1,4 @@
-Will man von einer p12- bzw. pfx-Datei das Ablaufdatum anzeigen geht das recht einfach:
+Will man von einer p12- bzw. PFX-Datei das Ablaufdatum anzeigen geht das recht einfach:
 
 ```console
 openssl pkcs12 -in cert.pfx -nokeys | openssl x509 -noout -enddate
