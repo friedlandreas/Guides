@@ -39,9 +39,6 @@ Set-ADUser $user.DistinguishedName -HomeDirectory $homeDirectory
 }
 ```
 
-Einfach die Servernamen anpassen und am besten in ein Powershell-Script (z.b home.ps1 und/oder profile.ps1) speichern und am Domänencontroller ausführen.
-
 Ich überprüfe immer mit [diesen Befehlen]( https://github.com/friedlandreas/Guides/blob/main/ActiveDirectory/Profileinstellungen%20von%20ActiveDirectory-Benutzern%20anzeigen.md) vorher und danach ob alles geklappt hat 🙂
-
 
 So kann man wunderbar und superschnell eine schöne Bulk-Migration der Home Folder bzw. Profile machen 🙂
