@@ -42,3 +42,22 @@ Set-ADUser $user.DistinguishedName -HomeDirectory $homeDirectory
 Ich überprüfe immer mit [diesen Befehlen]( https://github.com/friedlandreas/Guides/blob/main/ActiveDirectory/Profileinstellungen%20von%20ActiveDirectory-Benutzern%20anzeigen.md) vorher und danach ob alles geklappt hat 🙂
 
 So kann man wunderbar und superschnell eine schöne Bulk-Migration der Home Folder bzw. Profile machen 🙂
+
+Bei Neueren Servern wäre das z.B. auch so möglich:
+
+```console
+Import-Module ActiveDirectory
+
+$oldServerName = "alter-server"
+$newServerName = "neuer-server"
+
+
+$AllUsers = Get-ADUser -filter * -Properties HomeDirectory | Where-Object {$_.homedirectory -like "\\alter-server\*"}
+
+foreach($user in $AllUsers)
+{
+$homeDirectory = ($user.HomeDirectory.ToString()) -replace $oldServerName, $newServerName
+Set-ADUser $user.DistinguishedName -HomeDirectory $homeDirectory
+}
+```
+
