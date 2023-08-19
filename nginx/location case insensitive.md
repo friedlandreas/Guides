@@ -9,3 +9,9 @@ Beispiel: alle Varianten von OWA blocken:
 location ~* ^/owa {
 deny all;}
 ```
+
+Beispiel: alle Varianten von OWA weiterleiten:
+```console
+location ~* ^/owa {
+proxy_pass https://1.2.3.4;}
+```
