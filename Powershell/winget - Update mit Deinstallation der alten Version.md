@@ -13,7 +13,7 @@ Also z.B.
  winget upgrade --id cisco.webexteams --uninstall-previous
 ```
 
-Alterntaiv geht auch erst deinstallieren und danach installieren:
+Alternativ geht auch erst deinstallieren und danach installieren:
 
 ```console
 winget remove Packet.Name ; winget install Packet.Name
