@@ -63,7 +63,7 @@ server {
         auth_basic "Restricted Content";
         auth_basic_user_file /etc/nginx/.htpasswd;
 
-	      proxy_pass http://192.168.178.1;
+	proxy_pass http://192.168.178.1;
     }
 }
 ```
@@ -78,14 +78,14 @@ server {
     server_name admin.test.test;
 
     location / {
-     	  satisfy any;
+	satisfy any;
         allow 10.10.10.0/24;
         allow 1.2.3.4;
         deny all;
         auth_basic "Restricted Content";
         auth_basic_user_file /etc/nginx/.htpasswd;
 
-	      proxy_pass http://192.168.178.1;
+	proxy_pass http://192.168.178.1;
     }
 }
 ```
