@@ -21,6 +21,7 @@ sudo apt-get update
 sudo apt-get install apache2-utils
 ```
 
+
 ## Erstellen
 
 Zum erstellen der Datei:
@@ -37,6 +38,13 @@ Weitere User hinzufügen:
 ```console
 sudo htpasswd /etc/nginx/.htpasswd weiterer-username
 ```
+## User löschen
+
+Einen User aus der Datei löschen
+```console
+sudo htpasswd -D /etc/nginx/.htpasswd zuloeschenderuser
+```
+
 
 # Nginx-Konfiguration
 
