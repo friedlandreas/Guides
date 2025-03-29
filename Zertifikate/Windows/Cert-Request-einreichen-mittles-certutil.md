@@ -19,7 +19,7 @@ also z.B. :
 certreq -attrib "CertificateTemplate:WebServer" -submit c:\temp\cert.req
 ```
 
-![certutil request submit](https://github.com/friedlandreas/Guides/blob/742bab512df71b34889e55eb82d753dcec26d48a/images/certutil-request-submit-01.PNG
+![certutil request submit](https://github.com/friedlandreas/Guides/blob/742bab512df71b34889e55eb82d753dcec26d48a/images/certutil-request-submit-01.PNG)
 
 Wenn die CA das Zertifikat austellt kann es direkt gespeichert werden:
 
