@@ -27,4 +27,4 @@ Wenn die CA das Zertifikat austellt kann es direkt gespeichert werden:
 
 ![certutil request submit](https://github.com/friedlandreas/Guides/blob/ebf28b564985653b73abdf9f10ed6c464f075543/images/certutil-request-submit-02.PNG)
 
-Und schon hat man das Zert 😄
+Und schon hat man das Zert 🙂
