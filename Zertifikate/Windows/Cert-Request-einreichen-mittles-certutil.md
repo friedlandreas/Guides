@@ -8,7 +8,7 @@ certutil -CATemplates
 ```
 ![certutil catemplates](https://github.com/friedlandreas/Guides/blob/ebf28b564985653b73abdf9f10ed6c464f075543/images/certutil-catemplates.PNG)
 
-Dann können wir den Request mit Angabe der gewünschten Vorlage einreichen
+Dann können wir den Request mit Angabe der gewünschten Vorlage (angegeben wird der erste Name der Vorlage - der Name ohne Leerzeichen 🙂 ) einreichen
 
 ```console
 certreq -attrib "CertificateTemplate:{Name-der-Zertifikatvorlage}" -submit {Zertifikatantrag}.req
@@ -25,4 +25,4 @@ Wenn die CA das Zertifikat austellt kann es direkt gespeichert werden:
 
 ![certutil request submit](https://github.com/friedlandreas/Guides/blob/ebf28b564985653b73abdf9f10ed6c464f075543/images/certutil-request-submit-02.PNG)
 
-Und schon hat man das Zert :-)
+Und schon hat man das Zert 😄
