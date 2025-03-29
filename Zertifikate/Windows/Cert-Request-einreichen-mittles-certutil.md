@@ -1,5 +1,5 @@
 
-Will man ein Zertifikats-Request unter Windows an einer CA einreichen geht das recht einfach per certutil :-)
+Will man ein Zertifikats-Request unter Windows an einer CA einreichen geht das recht einfach per certutil:
 
 Zuerst lassen wir uns die zur Verfügung stehenden Vorlagen anzeigen
 
