@@ -1,6 +1,6 @@
 Um alle auf einem Exchange-Server konfigurierten URLs der Virtuellen Verzeichnisse anzeigen zu lassen verwende ich immer folgendes Script 
 
-Am besten einfach in der **ISE** auf dem Server starten :slightly_smiling_face:
+Am besten einfach in der **ISE** (als Admin) auf dem Server starten :slightly_smiling_face:
 
 ```console
 #Sripted by: Andreas Friedl
