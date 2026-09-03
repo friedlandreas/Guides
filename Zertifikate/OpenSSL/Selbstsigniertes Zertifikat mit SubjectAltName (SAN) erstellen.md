@@ -39,10 +39,11 @@ touch v3.ext
 Dateiinhalt
 ```
 subjectKeyIdentifier   = hash
-authorityKeyIdentifier = keyid:always,issuer:always
-keyUsage               = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment, keyAgreement, keyCertSign
+authorityKeyIdentifier = keyid,issuer
+basicConstraints       = critical, CA:false
+keyUsage               = critical, digitalSignature, keyEncipherment
+extendedKeyUsage       = serverAuth
 subjectAltName         = DNS:example.com, DNS:*.example.com
-issuerAltName          = issuer:copy
 ```
 
 ## Step 4: Generating a Self-Signed Certificate
